@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Montserrat;
+    color: #444;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 0 1em;
+    color: rgba(46, 46, 46, 0.6);
+    text-decoration: none;
+}
+
+.nav .current a {
+    color: rgba(46, 46, 46);
+}
+
+.nav a:hover {
+    opacity: 0.7;
+}
+
+.main-nav {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.main-nav img {
+    width: 100px;
+}
+
+.main-nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-nav-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 0px 30px;
+}
+
+.section-header {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
+    clear: right;
+}
+
+.section-sub-header {
+    margin: 0;
+    font-size: 1.3em;
+    font-weight: 600;
+    clear: right;
+}
+
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flexbox-item {
+    margin: 20px;
+    background-color: white;
+    filter: drop-shadow(1px 5px 7px rgba(0,0,0,0.5)); 
+}
+
+.flexbox-item-home-project {
+    width: 500px;
+}
+
+.flexbox-item-home-project:hover {
+    opacity: 0.7;
+}
+
+.project-des-container {
+    padding: 30px;
+    text-align: center;
+    font-size: 1.8em;
+    line-height: 1.5em;
+}
+
+.project-des-container a {
+    text-decoration: none;
+}
+
+.project-category {
+    font-size: .8em;
+}
+
+.content-section {
+    margin: 1em;
+}
+.home-container {
+    max-width: 65%;
+    margin: 100px auto;
+    font-family: "Noto Sans TC";
+    font-weight: normal;
+}
+
+.about-container {
+    max-width: 500px;
+    margin: 50px auto;
+    font-family: "Noto Sans TC";
+    font-weight: normal;
+}
+
+.my-image {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 30px;;
+    float: right;
+    border-radius: 50%;
+    
+}
+
+.gallery-header-container {
+    border-bottom: 10px solid rgb(50, 70, 60);
+    padding-bottom: 10px;
+}
+
+.project-banner {
+    margin: 100px 0 10px 0;
+}
+
+.project1-header-container {
+    border-bottom: 10px solid rgb(248, 215, 54);
+    padding-bottom: 10px;
+}
+
+.section-paragraph-container {
+    display: flex;
+    align-items: flex-start;
+    margin: 2em 0;
+}
+
+.paragraph-header {
+    color: #333333;
+    font-size: 1.1em;
+    font-weight: 800;
+}
+
+.paragraph-header-column {
+    width: 25%;    
+    text-align: center;
+    padding: .3em;
+}
+
+.paragraph-column {
+    width: 75%;
+    text-align: left;
+    padding: .3em;
+}
+
+.paragraph-column-solve img {
+    height: 400px;
+    margin: .5em;
+}
+
+.paragraph-column-solve-long img {
+    width: 250px;
+    margin: .5em;
+}
+
+iframe {
+    margin: 1.3em;
+}
+
+.paragraph-image img {
+    margin: 20px;
+    background-color: white;
+    filter: drop-shadow(1px 5px 7px rgba(0,0,0,0.5));
+}
+
+.menu {
+    
+    padding-left: 2em;
+    border-left: 5px solid rgb(248, 215, 54);
+    margin-bottom: 50px;
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+}
+
+.project1-content-container {
+    border-bottom: 10px solid rgb(248, 215, 54);
+    padding-bottom: 10px;
+    padding-left: 3em;
+    margin-top: 100px;
+}
+
+.project1-content-container h2 {
+    margin: 0;
+} 
+
+.arrow-image img {
+    display: block;
+    width: 70px;
+    margin: -40px auto;
+}
+
+.top-link a {
+    display: block;
+    text-align: right;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.gallery-container img {
+    max-width: 450px;
+    margin: 5px;
+    background-color: white;
+    filter: drop-shadow(1px 5px 7px rgba(0,0,0,0.5)); 
+}
+
+.main-footer {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 2em 30px;
+    margin-top: 100px;
+}
+
+.footer-name {
+    margin: 0;
+    font-size: 1em;
+}
+
+.footer-nav li {
+    font-size: 1em;
+    font-weight: 600;
+    padding: 0;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+    margin-top: -5px;
+    margin-bottom: -10px;
+}
